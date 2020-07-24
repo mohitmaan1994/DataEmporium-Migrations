@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Laravel Application" default="deploy" basedir=".">
+    <target name="deploy" depends="copy-files"></target>
+
+    <target name="copy-files">
+		<echo>Copying codebase files to external location...</echo>
+
+        <exec
+            command="robocopy &quot;${project.basedir}&quot; &quot;${demo.deployment.directory}&quot; /zb /mir /xf .hg .env.example &quot;${demo.deployment.directory}\public\web.config&quot; &quot;${demo.deployment.directory}\artisanScheduler.bat&quot; /xd &quot;${project.basedir}\storage&quot; /np /mt /r:5 /w:5"
+            passthru="true"
+        />
+    </target>
+</project>

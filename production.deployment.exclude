@@ -1,0 +1,3 @@
+\.hg\
+\public\web.config
+.env.exclude

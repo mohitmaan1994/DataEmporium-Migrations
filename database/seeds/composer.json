@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/seeds",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "mohitm",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    
+  }
+}

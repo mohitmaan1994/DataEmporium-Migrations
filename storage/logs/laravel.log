@@ -1,0 +1,21 @@
+[2020-07-10 10:59:59] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(121): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(376): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(141): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2020-07-10 10:59:59] laravel.ERROR: syntax error, unexpected ',', expecting ';' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ',', expecting ';' at C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\config\\database.php:107)
+[stacktrace]
+#0 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(219): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 C:\\Developer Destination\\Applications\\DoIT-DataEmporium\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 

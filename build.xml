@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Laravel Application" default="" basedir=".">
+    <property file="build.properties" />
+    <target name="test">
+		    <phing phingfile="build-test.xml" inheritRefs="true" target="deploy" />
+    </target>
+    <target name="demo">
+		    <phing phingfile="build-demo.xml" inheritRefs="true" target="deploy" />
+    </target>
+    <target name="production">
+		    <phing phingfile="build-production.xml" inheritRefs="true" target="deploy" />
+    </target>
+</project>
